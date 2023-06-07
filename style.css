@@ -1,0 +1,432 @@
+*
+{
+    margin: 0px;
+    padding: opx;
+}
+
+/* css for header  */
+.header
+{
+    height: 70px;
+    width: 100%;
+    padding: 0px 10%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    background-color: #efeded;
+}
+
+.logo
+{
+    height: 40px;
+    width: 20%;
+    font-size: 25px;
+    font-family: calibri;
+    color: #ff2e2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.nav
+{
+    height: 40px;
+    width: 40%;
+    color: black;
+    /* background-color: blue; */
+}
+
+.nav>ul
+{
+    height: 40px;
+    width: 100%;
+    font-family: segoe UI;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+}
+
+.nav > ul > li
+{
+    list-style-type: none;
+    color: black;
+    cursor: pointer;
+}
+
+.btn
+{
+    height: 50px;
+    width: 13%;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #ff2e2e;
+    border: 1px solid #ff2e2e;
+    color: white;
+    border-radius: 30px;
+}
+
+/* css for banner  */
+
+.banner
+{
+    height: 400px;
+    width: 100%;
+    padding-top: 0px;
+    background-image: url(dish/waffles.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay
+{
+    height: 400px;
+    width: 100%;
+    padding: 0px 10%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.desc
+{
+    width: 40%;
+    color: white;
+    font-size: 40px;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+.dishes
+{
+    color: #ff2e2e;
+    font-weight: bold;
+}
+
+/* css for KFC-boxes  */
+
+.KFC-main
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding: 20px 0%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 25px;
+    box-sizing: border-box;
+    background-color: #efeded;
+}
+
+.KFC-main > h2
+{
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: bold;
+}
+
+/* .KFC-main > .btn3
+{
+    background-color: black;
+    border: black;
+} */
+
+.KFC-boxes
+{
+    /* height: 450px; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: #ff2e2e; */
+}
+
+.KFC-box
+{
+    height: 400px;
+    width: 25%;
+    background-color: #efeded;
+}
+
+ .KFC-img
+{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    background-color: yellow;
+}
+
+.image
+{
+    width: 100%;
+}
+
+.KFC-desc
+{
+    height: 210px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    font-size: 20px;
+    font-family: calibri;
+    background-color: white; 
+}
+
+.KFC-desc > p
+{
+    font-size: 18px;
+}
+
+.btn3
+{
+    padding: 13px 13px;
+    width: 50%;
+    font-family: calibri;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #ff2e2e;
+    border-radius: 10px;
+    background-color: #ff2e2e;
+}
+
+/* css for main  */
+
+.main
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #efeded;
+}
+
+.main > h2
+{
+    font-size: 20px;
+    font-family: segoe UI;
+    font-weight: lighter;
+}
+
+.main-box
+{
+    /* height: 400px; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #f7f2f2; */
+}
+
+.boxes
+{
+    /* height: 400px; */
+    width: 22%;
+    border-radius: 5px;
+    /* background-color: white; */
+}
+
+.boxes-img
+{
+    height: 200px;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: #ff2e2e;
+}
+
+.image
+{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.image-desc
+{
+    height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: segoe UI;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: white;
+}
+
+.btn2
+{
+    height: 50px;
+    width: 60%;
+    font-family: calibri;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: 1px solid #ff2e2e;
+    border-radius: 10px;
+    background-color: #ff2e2e;
+}
+
+
+ @media (max-width: 576px)
+ { 
+
+.header
+{
+    height: 55px;
+    padding: 0px;
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+}
+
+.logo
+{
+    height: 55px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.nav
+{
+    height: 55px;
+    width: 70%;
+}
+
+.nav > ul
+{
+    height: 55px;
+    width: 100%;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.btn
+{
+    height: 35px;
+    width: 25%;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.banner
+{
+    height: 250px;
+    padding: 0px;
+
+}
+
+.overlay
+{
+    height: 250px;
+    padding: 0px 4%;
+}
+
+.desc
+{
+    width: 100%;
+    font-size: 30px;
+}
+
+.KFC-main
+{    
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    row-gap: 10px;
+
+    
+}
+
+
+.KFC-main > h2
+{
+    font-size: 22px;
+}
+    
+.KFC-main > .btn3
+{
+    /* height: 50px; */
+    width: 90%;
+    row-gap: 20px;
+}
+
+.KFC-boxes
+{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.KFC-box
+{
+    height: 400px;
+    width: 100%;
+}
+
+.KFC-desc
+{
+    height: 200px;
+    font-size: 18px;
+}
+
+.main
+{
+    padding: 0px;
+    display: flex;
+    background-color: #efeded;
+}
+
+.main-box
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    width: 90%;
+    background-color: #efeded;
+}
+
+.boxes
+{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
